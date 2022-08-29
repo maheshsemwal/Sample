@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    background: rgb(233, 189, 67);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30vh;
+    align-items: center;
+   
+}
+.collapse{
+    border-collapse: collapse;
+    /* margin-left: 97vh;
+    text-align: center;
+    align-items: center; */
+}
+
+.sr{
+    background: rgb(129, 197, 243);
+    border: 3px solid rgb(109, 106, 106);
+    padding: 5px 10px;
+ 
+    
+}
+.data{
+    background: rgb(129, 197, 243);
+    border: 3px solid rgb(109, 106, 106);
+    margin: 0;
+    padding: 5px 60px;
+    
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+}
